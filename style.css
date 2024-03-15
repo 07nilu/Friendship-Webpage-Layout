@@ -1,0 +1,93 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #333;
+}
+
+.pimg1{
+    background-image: url(Images/buddy4.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(Images/Buddy2.jpg);
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image: url(Images/buddy5.png);
+    min-height: 100%;
+}
+
+.pimg4{
+    background-image: url(Images/buddy3.jpg);
+    min-height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.ptext{
+    position: absolute;
+    top: 60%;
+    /* left: 135px; */
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-shadow: 4px 7px 10px black;
+    font-weight: bold;
+}
+
+.buddy{
+    position: absolute;
+    top: 59%;
+    left: 135px;
+    width: 100%;
+}
+
+/* .textBg{
+    color: #fff;
+    padding: 17px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-shadow: 20px 25px 30px white;
+} */
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #282828;
+    color: #ddd;
+}
+
+.made-by{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    top: 210px;
+    left: 355px;
+}
